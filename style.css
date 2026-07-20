@@ -1,0 +1,85 @@
+/* ===========================
+   Global Styles
+   =========================== */
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    margin: 0;
+    background: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* ===========================
+   Title Banner
+   =========================== */
+.title-banner {
+    background: #4db6ac;
+    color: #fff;
+    padding: 25px;
+    text-align: center;
+    border-bottom: 4px solid #00897b;
+}
+
+/* ===========================
+   Flexbox Navigation
+   =========================== */
+.main-nav {
+    display: flex;
+    flex-direction: column;
+    background: #4db6ac;
+    padding: 15px;
+    gap: 10px;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    padding: 8px 12px;
+    border-radius: 6px;
+}
+
+.main-nav a:hover {
+    background: #00897b;
+}
+
+/* Switch to horizontal layout */
+@media (min-width: 600px) {
+    .main-nav {
+        flex-direction: row;
+        justify-content: center;
+        gap: 30px;
+    }
+}
+
+/* ===========================
+   Content Cards
+   =========================== */
+.content-card {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+/* ===========================
+   Section Titles
+   =========================== */
+.section-title {
+    color: #00897b;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* ===========================
+   Footer
+   =========================== */
+.footer {
+    background: #4db6ac;
+    color: #fff;
+    text-align: center;
+    padding: 18px;
+    margin-top: 40px;
+    border-top: 4px solid #00897b;
+}
